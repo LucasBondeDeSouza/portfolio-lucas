@@ -209,4 +209,114 @@
         font-size: 18px;
     }
 }
-/* End ABout */
+/* End About */
+
+/* Start Skills */
+.Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #17202C;
+    padding-top: 70px;
+    min-height: 100vh;
+}
+
+.Skills p {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.Skills--group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-width: 500px;
+    gap: 20px;
+}
+
+.Skills--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 180px;
+    background: #4E555E;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.Skills--card:hover {
+    transform: translateY(-10px);
+}
+
+.Skills--card img {
+    height: 150px;
+}
+
+.Skills--name {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.Skills--name p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.toRight {
+    animation: toRight 1.5s ;
+}
+
+.toLeft {
+    animation: toLeft 1.5s ;
+}
+
+@keyframes toRight {
+    from {
+        transform: translateX(-700px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes toLeft {
+    from {
+        transform: translateX(550px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Skills h2 {
+        font-size: 70px;
+    }
+
+    .Skills--group {
+        max-width: 900px;
+    }
+
+    .Skills--card {
+        height: 250px;
+        width: 200px;
+    }
+
+    .Skills--card img {
+        height: 160px;
+    }
+
+    .Skills--name p {
+        font-size: 30px;
+    }
+}
+/* End Skills */
