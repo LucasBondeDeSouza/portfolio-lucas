@@ -4,6 +4,7 @@ import Header from "./Header.jsx";
 import MainHeader from "./MainHeader.jsx";
 import About from "./About.jsx";
 import Skills from "./Skills.jsx";
+import Projects from "./Projects.jsx";
 
 export default () => {
   return (
@@ -11,6 +12,7 @@ export default () => {
       <MainHeader />
       <About />
       <Skills />
+      <Projects />
     </>
   )
 }
