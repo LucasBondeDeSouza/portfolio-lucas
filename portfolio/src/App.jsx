@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 
 export default () => {
   return (
-    <div className="bg-dark">
+    <div>
       <Header />
       <MainHeader />
       <About />
