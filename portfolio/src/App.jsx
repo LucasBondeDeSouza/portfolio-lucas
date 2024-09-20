@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 export default () => {
   return (
@@ -15,8 +16,9 @@ export default () => {
         <MainHeader />
         <About />
         <Skills />
+        <Projects />
       </main>
-      
+
       <Navigation />
     </div>
   )
