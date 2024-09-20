@@ -1,10 +1,6 @@
-* {
+main {
     background-color: #15202b;
 }
-
-/*header {
-    filter: blur(16px);
-}*/
 
 .mainHeader img {
     height: 250px;
@@ -12,6 +8,28 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     animation: climb 5.5s infinite;
+}
+
+main .about, main .card {
+    background-color: #1F2937;
+}
+
+main .about img {
+    height: 180px;
+    object-fit: cover;
+}
+
+main .about p {
+    text-indent: 20px;
+}
+
+main .skill .logo {
+    display: flex;
+    justify-content: center;
+}
+
+main .skill .logo i {
+    font-size: 150px;
 }
 
 @keyframes climb {
