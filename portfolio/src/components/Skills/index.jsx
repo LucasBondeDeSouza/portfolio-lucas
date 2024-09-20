@@ -18,7 +18,7 @@ export default () => {
                                     <i className={skill.logo}></i>
                                 </div>
                                 <div className="card-body">
-                                    <h5 className="card-title text-white">{skill.name}</h5>
+                                    <h5 className="card-title text-white text-center">{skill.name}</h5>
                                 </div>
                             </div>
                         </div>

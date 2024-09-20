@@ -31,7 +31,7 @@ const skills = [
     },
     {
         id: 7,
-        name: "NodeJs",
+        name: "NodeJS",
         logo: "devicon-nodejs-plain-wordmark colored"
     },
     {
@@ -46,12 +46,12 @@ const skills = [
     },
     {
         id: 10,
-        name: "MySql",
+        name: "MySQL",
         logo: "devicon-mysql-plain-wordmark colored"
     },
     {
         id: 11,
-        name: "PostgreSql",
+        name: "PostgreSQL",
         logo: "devicon-postgresql-plain-wordmark colored"
     },
 ]
