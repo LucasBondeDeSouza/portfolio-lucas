@@ -1,7 +1,7 @@
 import React from "react";
 
 import 'devicon/devicon.min.css';
-import skills from "../../SkillsData"
+import skills from "./SkillsData"
 
 export default () => {
 
