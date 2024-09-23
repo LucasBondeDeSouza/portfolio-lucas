@@ -9,7 +9,7 @@ import Curriculo from "../../assets/Curriculo.docx"
 export default () => {
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">About Me</h1>
+            <h1 className="text-white mb-5">Sobre Mim</h1>
             
             <div className="card about mb-5">
                 <div className="row">

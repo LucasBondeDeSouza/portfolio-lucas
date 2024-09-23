@@ -12,7 +12,7 @@ export default () => {
 
                 <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <h1 className="text-white d-flex flex-column">
-                        I'm Lucas Bonde{' '}
+                        Eu sou Lucas Bonde{' '}
                         <span>
                             <Typewriter
                                 words={['Dev Web', 'Dev Front-End', 'Dev Back-End']}

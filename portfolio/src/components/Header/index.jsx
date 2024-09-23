@@ -12,9 +12,9 @@ export default () => {
                     <div className="col-12 col-md-6">
                         <nav className="d-flex align-items-center justify-content-around">
                             <p className="m-0 text-white">Home</p>
-                            <p className="m-0 text-white">About</p>
-                            <p className="m-0 text-white">Skills</p>
-                            <p className="m-0 text-white">Projects</p>
+                            <p className="m-0 text-white">Sobre</p>
+                            <p className="m-0 text-white">Habilidades</p>
+                            <p className="m-0 text-white">Projetos</p>
                         </nav>
                     </div>
                 </div>

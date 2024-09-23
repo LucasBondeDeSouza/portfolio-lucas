@@ -5,7 +5,7 @@ import projects from "./ProjectsData"
 export default () => {
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">Projects</h1>
+            <h1 className="text-white mb-5">Projetos</h1>
 
                 <div className="row">
                     {projects.map(project => (

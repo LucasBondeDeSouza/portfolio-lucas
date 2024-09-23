@@ -7,7 +7,7 @@ export default () => {
 
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">Skills</h1>
+            <h1 className="text-white mb-5">Habilidades</h1>
 
             <div className="row mb-5">
                 {skills.map(skill => (
