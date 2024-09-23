@@ -18,7 +18,7 @@ export default () => {
 
                                     <div className="d-flex align-items-center gap-2 my-2">
                                     {project.languages.map(language => (
-                                        <i key={language.id} className={language.name}></i>
+                                        <i className={language.name}></i>
                                     ))}
                                     </div>
 
