@@ -19,7 +19,6 @@ export default () => {
         <Projects />
       </main>
 
-      <Navigation />
     </div>
   )
 }

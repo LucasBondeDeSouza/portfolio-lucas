@@ -4,10 +4,9 @@ import projects from "./ProjectsData"
 
 export default () => {
     return (
-        <div className="container">
-            <h1 className="text-white">Projects</h1>
+        <div className="container min-vh-100">
+            <h1 className="text-white mb-5">Projects</h1>
 
-            <div className="min-vh-100">
                 <div className="row">
                     {projects.map(project => (
                         <div className="col-12 col-md-6 col-lg-4 mb-3">
@@ -29,6 +28,5 @@ export default () => {
                     ))}
                 </div>
             </div>
-        </div>
     )
 }
