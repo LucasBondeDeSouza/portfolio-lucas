@@ -1,4 +1,5 @@
 import React from "react";
+import aboutDescription from './AboutData'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare, faDownload, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -17,7 +18,7 @@ export default ({ language }) => {
                         <img src={ImgAbout} alt="" className="card-img-top" />
                         <div className="card-body">
                             <p className="card-text text-white">
-                                Olá! Sou Lucas Bonde, um entusiasta da tecnologia e formado em Análise e Desenvolvimento de Sistemas apaixonado por resolver problemas por meio da programação. Busco constantemente expandir meu conhecimento e aprimorar minhas habilidades na criação de soluções inovadoras e eficientes. Com um forte interesse em Desenvolvimento Web, estou determinado a contribuir de forma significativa para a indústria da tecnologia. Além de meu entusiasmo pela programação, também valorizo a colaboração em equipe e estou sempre pronto para enfrentar novos desafios. Estou ansioso para compartilhar meu trabalho e experiências neste portfólio. Seja bem-vindo!
+                                {language === 'pt' ? aboutDescription[0].pt : aboutDescription[0].en}
                             </p>
                         </div>
                     </div>
