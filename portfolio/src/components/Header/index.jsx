@@ -47,8 +47,8 @@ export default () => {
                                         value={language} 
                                         onChange={handleLanguageChange}
                                     >
-                                        <option value="pt" className="text-dark">Português</option>
-                                        <option value="en" className="text-dark">English</option>
+                                        <option value="pt" className="text-dark">{language === 'pt' ? 'Português' : 'Portuguese'}</option>
+                                        <option value="en" className="text-dark">{language === 'en' ? 'English' : 'Inglês'}</option>
                                     </select>
                                 </div>
                             </nav>
