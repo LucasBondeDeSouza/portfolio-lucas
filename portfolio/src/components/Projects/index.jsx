@@ -2,10 +2,10 @@ import React from "react";
 
 import projects from "./ProjectsData"
 
-export default () => {
+export default ({ language }) => {
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">Projetos</h1>
+            <h1 className="text-white mb-5">{language === 'pt' ? 'Projetos' : 'Projects'}</h1>
 
                 <div className="row">
                     {projects.map(project => (

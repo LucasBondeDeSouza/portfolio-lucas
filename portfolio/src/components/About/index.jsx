@@ -9,7 +9,7 @@ import Curriculo from "../../assets/Curriculo.docx"
 
 export default ({ language }) => {
     return (
-        <div className="container min-vh-100">
+        <div className="container min-vh-75">
             <h1 className="text-white mb-5">{language === 'pt' ? 'Sobre Mim' : 'About Me'}</h1>
             
             <div className="card about mb-5">

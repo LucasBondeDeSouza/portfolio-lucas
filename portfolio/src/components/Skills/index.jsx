@@ -3,11 +3,11 @@ import React from "react";
 import 'devicon/devicon.min.css';
 import skills from "./SkillsData"
 
-export default () => {
+export default ({ language }) => {
 
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">Habilidades</h1>
+            <h1 className="text-white mb-5">{language === 'pt' ? 'Habilidades' : 'Skills'}</h1>
 
             <div className="row mb-5">
                 {skills.map(skill => (
