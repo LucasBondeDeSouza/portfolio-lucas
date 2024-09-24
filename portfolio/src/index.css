@@ -1,49 +1,55 @@
-main {
-    background-color: #15202b;
+main,
+header {
+  background-color: #15202b;
+}
+
+.bg-blue-dark {
+  background-color: #15202b;
 }
 
 .mainHeader img {
-    height: 250px;
-    transform: rotate(-15deg);
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    animation: climb 5.5s infinite;
+  height: 250px;
+  transform: rotate(-15deg);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  animation: climb 5.5s infinite;
 }
 
-main .about, main .card {
-    background-color: #1F2937;
+main .about,
+main .card {
+  background-color: #1F2937;
 }
 
 main .about img {
-    height: 180px;
-    object-fit: cover;
+  height: 180px;
+  object-fit: cover;
 }
 
 main .about p {
-    text-indent: 20px;
+  text-indent: 20px;
 }
 
 main .skill .logo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 main .skill .logo i {
-    font-size: 130px;
+  font-size: 130px;
 }
 
 @keyframes climb {
-    50% {
-        transform: rotate(15deg);
-    }
+  50% {
+    transform: rotate(15deg);
+  }
 
-    100% {
-        transform: rotate(-15deg);
-    }
+  100% {
+    transform: rotate(-15deg);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .mainHeader img {
-        height: 350px;
-    }
+  .mainHeader img {
+    height: 350px;
+  }
 }
