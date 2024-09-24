@@ -1,15 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faDownload, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import ImgAbout from "../../assets/img-about.png"
 import Curriculo from "../../assets/Curriculo.docx"
 
-export default () => {
+export default ({ language }) => {
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">Sobre Mim</h1>
+            <h1 className="text-white mb-5">{language === 'pt' ? 'Sobre Mim' : 'About Me'}</h1>
             
             <div className="card about mb-5">
                 <div className="row">
@@ -24,7 +24,7 @@ export default () => {
 
                     <div className="col-12 col-lg-5 d-flex align-items-center">
                         <div className="card-body border-start">
-                            <h2 className="text-white fw-bold mb-3 border-bottom pb-3">Contato</h2>
+                            <h2 className="text-white fw-bold mb-3 border-bottom pb-3">{language === 'pt' ? 'Contato' : 'Contact'}</h2>
 
                             <div className="d-flex flex-column pt-3 gap-4">
                                 <div className="d-flex align-items-center">
@@ -38,18 +38,20 @@ export default () => {
                                 <div className="d-flex align-items-center">
                                     <FontAwesomeIcon icon={faGithub} className="text-white fs-3" />
                                     <a className="btn btn-light fw-bold btn-sm mx-4" href="https://github.com/LucasBondeDeSouza" target="_blank">
-                                        Visitar
+                                        {language === 'pt' ? 'Visitar' : 'Visit'}
+                                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
                                     </a>
                                 </div>
                                 <div className="d-flex align-items-center">
                                     <FontAwesomeIcon icon={faLinkedin} className="text-white fs-2" />
                                     <a className="btn btn-light fw-bold btn-sm mx-4" href="https://www.linkedin.com/in/lucasbonde/" target="_blank">
-                                        Visitar
+                                        {language === 'pt' ? 'Visitar' : 'Visit'}
+                                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
                                     </a>
                                 </div>
                                 <a className="btn btn-primary fw-bold w-100 d-flex align-items-center justify-content-center gap-2" href={Curriculo} download='Curriculo_Lucas.docx'>
                                     <FontAwesomeIcon icon={faDownload} />
-                                    Baixar Currículo
+                                        {language === 'pt' ? 'Baixar Currículo' : 'Download Resume'}
                                 </a>
                             </div>
                         </div>
