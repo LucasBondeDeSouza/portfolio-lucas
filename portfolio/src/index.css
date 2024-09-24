@@ -4,8 +4,23 @@ header {
 }
 
 .bg-blue-dark {
-  background-color: #15202b;
+  background-color: #0f1a24;
 }
+
+.custom-toggler {
+  border-color: #fff; /* Cor da borda */
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* Muda a cor do ícone do botão para branco */
+}
+
+.navbar-toggler {
+  padding: 0.5rem 1rem; /* Aumenta o tamanho do botão */
+  background-color: rgba(255, 255, 255, 0.2); /* Adiciona um fundo semitransparente */
+}
+
 
 .mainHeader img {
   height: 250px;

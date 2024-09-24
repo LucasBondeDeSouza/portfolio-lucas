@@ -1,29 +1,34 @@
 import React from "react";
-import MenuToggle from "./MenuToggle";
 
 export default () => {
     return (
         <header className="sticky-top bg-blue-dark">
-            <div className="d-none d-md-inline">
-                <div className="container">
-                    <div className="row d-flex align-items-center py-2">
-                        <div className="col-12 col-md-6">
-                            <h1 className="w-50 m-0 text-white">PORTFÓLIO</h1>
-                        </div>
-
-                        <div className="col-12 col-md-6">
-                            <nav className="d-flex align-items-center justify-content-around">
-                                <p className="m-0 text-white fw-bold">Home</p>
-                                <p className="m-0 text-white fw-bold">Sobre</p>
-                                <p className="m-0 text-white fw-bold">Habilidades</p>
-                                <p className="m-0 text-white fw-bold">Projetos</p>
+            <div className="container">
+                <nav className="navbar navbar-expand-md">
+                    <div className="container-fluid">
+                        <h1 className="navbar-brand m-0 text-white">PORTFÓLIO</h1>
+                        <button 
+                            className="navbar-toggler custom-toggler" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navbarNav" 
+                            aria-controls="navbarNav" 
+                            aria-expanded="false" 
+                            aria-label="Toggle navigation"
+                        >
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
+                            <nav className="navbar-nav">
+                                <p className="nav-item m-0 text-white nav-link me-md-4">Home</p>
+                                <p className="nav-item m-0 text-white nav-link me-md-4">Sobre</p>
+                                <p className="nav-item m-0 text-white nav-link me-md-4">Habilidades</p>
+                                <p className="nav-item m-0 text-white nav-link">Projetos</p>
                             </nav>
                         </div>
                     </div>
-                </div>
+                </nav>
             </div>
-
-            <MenuToggle />
         </header>
     )
 }
