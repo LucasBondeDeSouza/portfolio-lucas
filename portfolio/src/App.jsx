@@ -1,23 +1,23 @@
-import React from "react";
-
-import MainHeader from "./components/MainHeader";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import MainHeader from "./components/MainHeader";
 
 export default () => {
+  const [language, setLanguage] = useState('pt');
+
   return (
     <div>
-      <Header />
+      <Header language={language} setLanguage={setLanguage} />
 
       <main>
-        <MainHeader />
-        <About />
-        <Skills />
-        <Projects />
+        <MainHeader language={language} />
+        <About language={language} />
+        <Skills language={language} />
+        <Projects language={language} />
       </main>
-
     </div>
-  )
-}
+  );
+};

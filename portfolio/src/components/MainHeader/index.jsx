@@ -1,21 +1,21 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter';
-import Avatar from "../../assets/avatar.png"
+import Avatar from "../../assets/avatar.png";
 
-export default () => {
+export default ({ language }) => {
     return (
         <div className="container vh-100 d-flex justify-content-center align-items-center">
             <div className="row w-100 h-75">
                 <div className="mainHeader col-12 col-md-6 d-flex justify-content-center align-items-center">
-                    <img src={Avatar} alt="avatar" />
+                    <img src={Avatar} alt="avatar" className="img-fluid" />
                 </div>
 
                 <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <h1 className="text-white d-flex flex-column">
-                        Eu sou Lucas Bonde{' '}
+                        {language === 'pt' ? 'Eu sou Lucas Bonde' : "I'm Lucas Bonde"}{' '}
                         <span>
                             <Typewriter
-                                words={['Dev Web', 'Dev Front-End', 'Dev Back-End']}
+                                words={language === 'pt' ? ['Dev Web', 'Dev Front-End', 'Dev Back-End'] : ['Web Dev', 'Front-End Dev', 'Back-End Dev']}
                                 loop={Infinity}
                                 cursor
                                 cursorStyle="_"
@@ -29,4 +29,4 @@ export default () => {
             </div>
         </div>
     );
-}
+};
