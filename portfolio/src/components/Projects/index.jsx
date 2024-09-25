@@ -3,18 +3,18 @@ import projects from "./ProjectsData"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-export default ({ language }) => {
+export default ({ language, lightMode }) => {
     return (
         <div className="container min-vh-100">
-            <h1 className="text-white mb-5">{language === 'pt' ? 'Projetos' : 'Projects'}</h1>
+            <h1 className={`${lightMode ? 'dark' : 'text-white'} mb-5`}>{language === 'pt' ? 'Projetos' : 'Projects'}</h1>
 
             <div className="row">
                 {projects.map(project => (
                     <div className="col-12 col-md-6 col-lg-4 mb-3">
-                        <div className="card p-2">
+                        <div className={`${lightMode ? 'bg-card-light' : 'bg-card-dark'} card border-0 p-2`}>
                             <div className="card-body">
-                                <h4 className="card-title text-white">{project.name}</h4>
-                                <p className="card-text text-white">{project.description[language]}</p>
+                                <h4 className={`card-title ${lightMode ? 'text-dark' : 'text-white'}`}>{project.name}</h4>
+                                <p className={`card-text ${lightMode ? 'text-dark' : 'text-white'}`}>{project.description[language]}</p>
 
                                 <div className="d-flex align-items-center gap-2 my-2">
                                     {project.languages.map(language => (
