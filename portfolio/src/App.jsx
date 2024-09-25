@@ -21,7 +21,7 @@ export default () => {
       <main className={lightMode ? 'bg-main-light' : 'bg-main-dark'}>
         <MainHeader language={language} lightMode={lightMode} />
         <About language={language} lightMode={lightMode} />
-        <Skills language={language} dlightMode={lightMode} />
+        <Skills language={language} lightMode={lightMode} />
         <Projects language={language} lightMode={lightMode} />
       </main>
     </div>

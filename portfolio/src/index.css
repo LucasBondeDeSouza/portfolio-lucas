@@ -28,6 +28,22 @@
   background-color: rgba(255, 255, 255, 0.2); /* Adiciona um fundo semitransparente */
 }
 
+.bg-card-dark {
+  background-color: #1F2937 !important;
+}
+
+.bg-card-light {
+  background-color: #fff !important;
+}
+
+.bg-card-dark img, .bg-card-light img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.bg-card-dark p, .bg-card-light p {
+  text-indent: 20px;
+}
 
 .mainHeader img {
   height: 250px;
@@ -35,20 +51,6 @@
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   animation: climb 5.5s infinite;
-}
-
-main .about,
-main .card {
-  background-color: #1F2937;
-}
-
-main .about img {
-  height: 180px;
-  object-fit: cover;
-}
-
-main .about p {
-  text-indent: 20px;
 }
 
 main .skill .logo {
