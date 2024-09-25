@@ -7,16 +7,22 @@ import MainHeader from "./components/MainHeader";
 
 export default () => {
   const [language, setLanguage] = useState('pt');
+  const [lightMode, setLightMode] = useState(false)
 
   return (
     <div>
-      <Header language={language} setLanguage={setLanguage} />
+      <Header 
+        language={language} 
+        setLanguage={setLanguage}
+        lightMode={lightMode}
+        setLightMode={setLightMode}
+      />
 
-      <main>
-        <MainHeader language={language} />
-        <About language={language} />
-        <Skills language={language} />
-        <Projects language={language} />
+      <main className={lightMode ? 'bg-main-light' : 'bg-main-dark'}>
+        <MainHeader language={language} lightMode={lightMode} />
+        <About language={language} lightMode={lightMode} />
+        <Skills language={language} dlightMode={lightMode} />
+        <Projects language={language} lightMode={lightMode} />
       </main>
     </div>
   );

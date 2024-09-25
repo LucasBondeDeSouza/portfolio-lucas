@@ -1,10 +1,17 @@
-main,
-header {
+.bg-main-dark {
   background-color: #15202b;
 }
 
-.bg-blue-dark {
+.bg-main-light {
+  background-color: #f0f4f8;
+}
+
+.bg-header-dark {
   background-color: #0f1a24;
+}
+
+.bg-header-light {
+  background-color: #dce6f0;
 }
 
 .custom-toggler {
