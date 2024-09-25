@@ -13,7 +13,7 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
 
     return (
         <>
-            <header className={`sticky-top ${lightMode ? 'bg-header-light' : 'bg-header-dark'}`}>
+            <header className={`sticky-top ${lightMode ? 'bg-header-light' : 'bg-header-dark'} shadow-sm`}>
                 <div className="container">
                     <nav className="navbar navbar-expand-md">
                         <div className="container-fluid">

@@ -12,7 +12,7 @@ export default ({ language, lightMode }) => {
         <div className="container min-vh-75">
             <h1 className={`${lightMode ? 'text-dark' : 'text-white'} mb-5`}>{language === 'pt' ? 'Sobre Mim' : 'About Me'}</h1>
             
-            <div className={`card ${lightMode ? 'bg-card-light' : 'bg-card-dark'} border-0 mb-5`}>
+            <div className={`card ${lightMode ? 'bg-card-light' : 'bg-card-dark'} shadow border-0 mb-5`}>
                 <div className="row">
                     <div className="col-12 col-lg-7">
                         <img src={ImgAbout} alt="" className="card-img-top" />
