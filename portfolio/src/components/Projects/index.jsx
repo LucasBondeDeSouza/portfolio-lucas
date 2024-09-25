@@ -1,6 +1,7 @@
 import React from "react";
-
 import projects from "./ProjectsData"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default ({ language }) => {
     return (
@@ -21,7 +22,10 @@ export default ({ language }) => {
                                     ))}
                                 </div>
 
-                                <a href={project.link} className="btn btn-primary w-100 mt-2" target="_blank">Visitar</a>
+                                <a href={project.link} className="btn btn-primary w-100 mt-2" target="_blank">
+                                    {language === 'pt' ? 'Visitar' : 'Visit'}
+                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
+                                </a>
                             </div>
                         </div>
                     </div>
