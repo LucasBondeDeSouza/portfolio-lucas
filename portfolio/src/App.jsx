@@ -34,11 +34,11 @@ export default () => {
           <About language={language} lightMode={lightMode} />
         </div>
 
-        <div data-aos="fade-down">
+        <div data-aos="fade-up">
           <Skills language={language} lightMode={lightMode} />
         </div>
 
-        <div data-aos="zoom-in">
+        <div data-aos="fade-up">
           <Projects language={language} lightMode={lightMode} />
         </div>
       </main>
