@@ -10,7 +10,7 @@ import MainHeader from "./components/MainHeader";
 
 export default () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1500 });
   }, []);
 
   const [language, setLanguage] = useState('pt');
