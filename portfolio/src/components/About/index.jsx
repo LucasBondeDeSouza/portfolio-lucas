@@ -50,6 +50,7 @@ export default ({ language, lightMode }) => {
                                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
                                     </a>
                                 </div>
+                                
                                 <a className="btn btn-primary fw-bold w-100 d-flex align-items-center justify-content-center gap-2" href={Curriculo} download='Curriculo_Lucas.docx'>
                                     <FontAwesomeIcon icon={faDownload} />
                                         {language === 'pt' ? 'Baixar Currículo' : 'Download Resume'}
