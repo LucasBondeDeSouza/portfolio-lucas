@@ -38,14 +38,14 @@ export default ({ language, lightMode }) => {
                                 </div>
                                 <div className="d-flex align-items-center">
                                     <FontAwesomeIcon icon={faGithub} className={`${lightMode ? 'text-dark' : 'text-white'} fs-3`} />
-                                    <a className={`btn ${lightMode ? 'btn-dark' : 'btn-light'} fw-bold btn-sm mx-4`} href="https://github.com/LucasBondeDeSouza" target="_blank">
+                                    <a className={`btn ${lightMode ? 'btn-primary' : 'btn-light'} fw-bold btn-sm mx-4`} href="https://github.com/LucasBondeDeSouza" target="_blank">
                                         {language === 'pt' ? 'Visitar' : 'Visit'}
                                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
                                     </a>
                                 </div>
                                 <div className="d-flex align-items-center">
                                     <FontAwesomeIcon icon={faLinkedin} className={`${lightMode ? 'text-dark' : 'text-white'} fs-2`} />
-                                    <a className={`btn ${lightMode ? 'btn-dark' : 'btn-light'} fw-bold btn-sm mx-4`} href="https://www.linkedin.com/in/lucasbonde/" target="_blank">
+                                    <a className={`btn ${lightMode ? 'btn-primary' : 'btn-light'} fw-bold btn-sm mx-4`} href="https://www.linkedin.com/in/lucasbonde/" target="_blank">
                                         {language === 'pt' ? 'Visitar' : 'Visit'}
                                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
                                     </a>
