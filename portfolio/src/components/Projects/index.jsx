@@ -1,7 +1,7 @@
 import React from "react";
 import projects from "./ProjectsData"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default ({ language, lightMode }) => {
     return (
@@ -22,14 +22,14 @@ export default ({ language, lightMode }) => {
                                     ))}
                                 </div>
 
-                                <div className="d-flex gap-3">
+                                <div className="d-flex gap-2">
                                     <a href={project.linkProject} className="btn btn-primary w-50 mt-2" target="_blank">
                                         {language === 'pt' ? 'Visitar' : 'Visit'}
                                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
                                     </a>
-                                    <a href={project.link} className="btn btn-info text-white w-50 mt-2" target="_blank">
-                                        {language === 'pt' ? 'Visitar' : 'Visit'}
-                                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
+                                    <a href={project.linkInAction} className="btn btn-info text-white w-50 mt-2" target="_blank">
+                                        {language === 'pt' ? 'Em Ação' : 'In Action'}
+                                        <FontAwesomeIcon icon={faPlayCircle} className="ms-2" />
                                     </a>
                                 </div>
                             </div>

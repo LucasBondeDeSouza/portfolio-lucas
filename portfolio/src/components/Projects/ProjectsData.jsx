@@ -14,7 +14,8 @@ const projects = [
             { id: 5, name: "devicon-bootstrap-plain colored fs-5" },
             { id: 6, name: "devicon-postgresql-plain colored fs-5" },
         ],
-        linkProject: "https://litshare.vercel.app/"
+        linkProject: "https://litshare.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7241515139902918657/"
     },
     {
         id: 2,
@@ -28,7 +29,8 @@ const projects = [
             { id: 2, name: "devicon-nodejs-plain-wordmark colored fs-5" },
             { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
         ],
-        linkProject: "https://newsnow-snowy.vercel.app/"
+        linkProject: "https://newsnow-snowy.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7235239913430876162/"
     },
     {
         id: 3,
@@ -41,7 +43,8 @@ const projects = [
             { id: 1, name: "devicon-react-original colored fs-5" },
             { id: 2, name: "devicon-tailwindcss-original colored fs-5" },
         ],
-        linkProject: "https://clone-twitter-three-blond.vercel.app/"
+        linkProject: "https://clone-twitter-three-blond.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7242564054475563008/"
     },
     {
         id: 4,
@@ -55,7 +58,8 @@ const projects = [
             { id: 2, name: "devicon-css3-plain colored fs-5" },
             { id: 3, name: "devicon-javascript-plain colored fs-5" },
         ],
-        linkProject: "https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html"
+        linkProject: "https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7188974997695062018/?originTrackingId=vj5VDiceQo6oTXerhRcoGQ%3D%3D"
     },
     {
         id: 5,
