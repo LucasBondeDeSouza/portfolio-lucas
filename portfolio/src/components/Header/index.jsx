@@ -18,14 +18,14 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
                     <nav className="navbar navbar-expand-md">
                         <div className="container-fluid">
                             <h1 className={`navbar-brand m-0 ${lightMode ? 'text-dark' : 'text-white'}`}>PORTFÓLIO</h1>
-                            
-                            <button 
-                                className="navbar-toggler custom-toggler" 
-                                type="button" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#navbarNav" 
-                                aria-controls="navbarNav" 
-                                aria-expanded="false" 
+
+                            <button
+                                className="navbar-toggler custom-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav"
+                                aria-controls="navbarNav"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="navbar-toggler-icon"></span>
@@ -42,11 +42,11 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
                                         {language === 'pt' ? 'Projetos' : 'Projects'}
                                     </li>
                                     <li className="nav-item d-flex align-items-center me-md-4">
-                                        {language === 'pt' ? <BR title="Português" style={{ width: '24px', height: 'auto' }} /> : 
+                                        {language === 'pt' ? <BR title="Português" style={{ width: '24px', height: 'auto' }} /> :
                                             <US title="English" style={{ width: '24px', height: 'auto' }} />}
-                                        <select 
-                                            className={`form-select-sm w-auto bg-transparent border-0 ${lightMode ? 'text-dark' :'text-white'} ms-2`}
-                                            value={language} 
+                                        <select
+                                            className={`form-select-sm w-auto bg-transparent border-0 ${lightMode ? 'text-dark' : 'text-white'} ms-2`}
+                                            value={language}
                                             onChange={handleLanguageChange}
                                         >
                                             <option value="pt" className="text-dark">{language === 'pt' ? 'Português' : 'Portuguese'}</option>

@@ -11,7 +11,15 @@
 }
 
 .bg-header-light {
-  background-color: #dce6f0;
+  background: linear-gradient(270deg, #dfe9f3, #ffffff, #dfe9f3);
+  background-size: 600% 600%;
+  animation: GradientAnimation 15s ease infinite;
+}
+
+@keyframes GradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .custom-toggler {
