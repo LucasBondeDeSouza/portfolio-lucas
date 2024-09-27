@@ -22,10 +22,16 @@ export default ({ language, lightMode }) => {
                                     ))}
                                 </div>
 
-                                <a href={project.link} className="btn btn-primary w-100 mt-2" target="_blank">
-                                    {language === 'pt' ? 'Visitar' : 'Visit'}
-                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
-                                </a>
+                                <div className="d-flex gap-3">
+                                    <a href={project.linkProject} className="btn btn-primary w-50 mt-2" target="_blank">
+                                        {language === 'pt' ? 'Visitar' : 'Visit'}
+                                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
+                                    </a>
+                                    <a href={project.link} className="btn btn-info text-white w-50 mt-2" target="_blank">
+                                        {language === 'pt' ? 'Visitar' : 'Visit'}
+                                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ms-2" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

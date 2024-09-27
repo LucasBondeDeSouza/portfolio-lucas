@@ -14,7 +14,7 @@ const projects = [
             { id: 5, name: "devicon-bootstrap-plain colored fs-5" },
             { id: 6, name: "devicon-postgresql-plain colored fs-5" },
         ],
-        link: "https://litshare.vercel.app/"
+        linkProject: "https://litshare.vercel.app/"
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ const projects = [
             { id: 2, name: "devicon-nodejs-plain-wordmark colored fs-5" },
             { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
         ],
-        link: "https://newsnow-snowy.vercel.app/"
+        linkProject: "https://newsnow-snowy.vercel.app/"
     },
     {
         id: 3,
@@ -41,7 +41,7 @@ const projects = [
             { id: 1, name: "devicon-react-original colored fs-5" },
             { id: 2, name: "devicon-tailwindcss-original colored fs-5" },
         ],
-        link: "https://clone-twitter-three-blond.vercel.app/"
+        linkProject: "https://clone-twitter-three-blond.vercel.app/"
     },
     {
         id: 4,
@@ -55,7 +55,7 @@ const projects = [
             { id: 2, name: "devicon-css3-plain colored fs-5" },
             { id: 3, name: "devicon-javascript-plain colored fs-5" },
         ],
-        link: "https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html"
+        linkProject: "https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html"
     },
     {
         id: 5,
@@ -70,7 +70,7 @@ const projects = [
             { id: 3, name: "devicon-tailwindcss-original colored fs-5" },
             { id: 4, name: "devicon-javascript-plain colored fs-5" },
         ],
-        link: "https://cardapio-online-lac.vercel.app/"
+        linkProject: "https://cardapio-online-lac.vercel.app/"
     },
 ]
 

@@ -11,7 +11,7 @@
 }
 
 .bg-header-light {
-  background: linear-gradient(270deg, #dfe9f3, #ffffff, #dfe9f3);
+  background: linear-gradient(to right, #0D6EFD,  #56c7e1, #2ea6bf);
   background-size: 600% 600%;
   animation: GradientAnimation 15s ease infinite;
 }
