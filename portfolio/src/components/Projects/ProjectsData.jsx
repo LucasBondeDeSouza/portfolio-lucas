@@ -74,7 +74,8 @@ const projects = [
             { id: 3, name: "devicon-tailwindcss-original colored fs-5" },
             { id: 4, name: "devicon-javascript-plain colored fs-5" },
         ],
-        linkProject: "https://cardapio-online-lac.vercel.app/"
+        linkProject: "https://cardapio-online-lac.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7245836255882604544/"
     },
 ]
 
