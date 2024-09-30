@@ -26,18 +26,22 @@ export default () => {
       />
 
       <main className={lightMode ? 'bg-main-light' : 'bg-main-dark'}>
+        <div id="mainHeader"></div>
         <div data-aos="fade-up">
           <MainHeader language={language} lightMode={lightMode} />
         </div>
 
+        <div id="about"></div>
         <div data-aos="fade-up">
           <About language={language} lightMode={lightMode} />
         </div>
 
+        <div id="skills"></div>
         <div data-aos="fade-up">
           <Skills language={language} lightMode={lightMode} />
         </div>
 
+        <div id="projects"></div>
         <div data-aos="fade-up">
           <Projects language={language} lightMode={lightMode} />
         </div>

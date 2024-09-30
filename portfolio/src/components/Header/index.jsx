@@ -17,7 +17,9 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
                 <div className="container">
                     <nav className="navbar navbar-expand-md">
                         <div className="container-fluid">
-                            <h1 className='navbar-brand m-0 text-white'>PORTFÓLIO</h1>
+                            <a href="#mainHeader" class="text-decoration-none text-reset">
+                                <h1 className='navbar-brand m-0 text-white'>PORTFÓLIO</h1>
+                            </a>
 
                             <button
                                 className="navbar-toggler custom-toggler"
@@ -32,15 +34,22 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
                             </button>
                             <div className="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
                                 <ul className="navbar-nav">
-                                    <li className='nav-item m-0 text-white nav-link me-md-4'>
-                                        {language === 'pt' ? 'Sobre' : 'About'}
+                                    <li>
+                                        <a href="#about" className="nav-item m-0 nav-link text-white me-md-4">
+                                            {language === 'pt' ? 'Sobre' : 'About'}
+                                        </a>
                                     </li>
-                                    <li className='nav-item m-0 text-white nav-link me-md-4'>
-                                        {language === 'pt' ? 'Habilidades' : 'Skills'}
+                                    <li>
+                                        <a href="#skills" className="nav-item m-0 nav-link text-white me-md-4">
+                                            {language === 'pt' ? 'Habilidades' : 'Skills'}
+                                        </a>
                                     </li>
-                                    <li className='nav-item m-0 text-white nav-link me-md-4'>
-                                        {language === 'pt' ? 'Projetos' : 'Projects'}
+                                    <li>
+                                        <a href="#projects" className="nav-item m-0 nav-link text-white me-md-4">
+                                            {language === 'pt' ? 'Projetos' : 'Projects'}
+                                        </a>
                                     </li>
+
                                     <li className="nav-item d-flex align-items-center me-md-4">
                                         {language === 'pt' ? <BR title="Português" style={{ width: '24px', height: 'auto' }} /> :
                                             <US title="English" style={{ width: '24px', height: 'auto' }} />}
@@ -53,6 +62,7 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
                                             <option value="en" className="text-dark">EN-US</option>
                                         </select>
                                     </li>
+
                                     <li className="nav-item d-flex align-items-center">
                                         <div className="form-check form-switch m-0">
                                             <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={toggleLightMode} />
