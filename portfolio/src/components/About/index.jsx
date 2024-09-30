@@ -6,6 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import ImgAbout from "../../assets/img-about.png"
 import Curriculo from "../../assets/Curriculo.docx"
+import Resume from "../../assets/Resume.docx"
 
 export default ({ language, lightMode }) => {
     return (
@@ -51,9 +52,11 @@ export default ({ language, lightMode }) => {
                                     </a>
                                 </div>
                                 
-                                <a className="btn btn-primary fw-bold w-100 d-flex align-items-center justify-content-center gap-2" href={Curriculo} download='Curriculo_Lucas.docx'>
+                                <a className="btn btn-primary fw-bold w-100 d-flex align-items-center justify-content-center gap-2" 
+                                    href={language === 'pt' ? Curriculo : Resume} 
+                                    download={language === 'pt' ? 'Curriculo_Lucas.docx' : 'Resume_Lucas.docx'}>
                                     <FontAwesomeIcon icon={faDownload} />
-                                        {language === 'pt' ? 'Baixar Currículo' : 'Download Resume'}
+                                    {language === 'pt' ? 'Baixar Currículo' : 'Download Resume'}
                                 </a>
                             </div>
                         </div>
