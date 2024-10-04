@@ -2,6 +2,10 @@ import React from "react";
 
 export default ({ language, lightMode }) => {
 
+    const getYear = () => {
+        return new Date().getFullYear()
+    }
+
     return (
         <div className={lightMode ? 'bg-white' : 'bg-header-dark'}>
             <div className="container">
@@ -12,7 +16,7 @@ export default ({ language, lightMode }) => {
                         <li className="nav-item"><a href="#skills" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>{language === 'pt' ? 'Habilidades' : 'Skills'}</a></li>
                         <li className="nav-item"><a href="#projects" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>{language === 'pt' ? 'Projetos' : 'Projects'}</a></li>
                     </ul>
-                    <p className={`text-center ${lightMode ? 'text-secondary' : 'text-light'}`}>© 2024 Lucas Bonde</p>
+                    <p className={`text-center ${lightMode ? 'text-secondary' : 'text-light'}`}>© {getYear()} Lucas Bonde</p>
                 </footer>
             </div>
         </div>
