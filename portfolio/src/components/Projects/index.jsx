@@ -5,7 +5,7 @@ import { faArrowUpRightFromSquare, faPlayCircle } from "@fortawesome/free-solid-
 
 export default ({ language, lightMode }) => {
     return (
-        <div className="container min-vh-100">
+        <div className="container pb-5 min-vh-100">
             <h1 className={`${lightMode ? 'dark' : 'text-white'} mb-5`}>{language === 'pt' ? 'Projetos' : 'Projects'}</h1>
 
             <div className="row">

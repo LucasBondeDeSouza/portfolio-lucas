@@ -7,6 +7,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import MainHeader from "./components/MainHeader";
+import Footer from "./components/Footer";
 
 export default () => {
   useEffect(() => {
@@ -46,6 +47,8 @@ export default () => {
           <Projects language={language} lightMode={lightMode} />
         </div>
       </main>
+
+      <Footer language={language} lightMode={lightMode} />
     </div>
   );
 };
