@@ -7,12 +7,12 @@ export default ({ language, lightMode }) => {
             <div className="container">
                 <footer className="py-5">
                     <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li className="nav-item"><a href="#" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>Home</a></li>
-                        <li className="nav-item"><a href="#about" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>Sobre</a></li>
-                        <li className="nav-item"><a href="#skills" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>Habilidades</a></li>
-                        <li className="nav-item"><a href="#projects" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>Projetos</a></li>
+                        <li className="nav-item"><a href="#" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>{language === 'pt' ? 'Início' : 'Home'}</a></li>
+                        <li className="nav-item"><a href="#about" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>{language === 'pt' ? 'Sobre' : 'About'}</a></li>
+                        <li className="nav-item"><a href="#skills" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>{language === 'pt' ? 'Habilidades' : 'Skills'}</a></li>
+                        <li className="nav-item"><a href="#projects" className={`nav-link px-2 ${lightMode ? 'text-secondary' : 'text-light'}`}>{language === 'pt' ? 'Projetos' : 'Projects'}</a></li>
                     </ul>
-                    <p className={`text-center ${lightMode ? 'text-secondary' : 'text-light'}`}>© 2024 Company, Inc</p>
+                    <p className={`text-center ${lightMode ? 'text-secondary' : 'text-light'}`}>© 2024 Lucas Bonde</p>
                 </footer>
             </div>
         </div>
