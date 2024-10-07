@@ -10,7 +10,7 @@ export default ({ language, lightMode }) => {
 
             <div className="row">
                 {projects.map(project => (
-                    <div className="col-12 col-md-6 col-lg-4 mb-3">
+                    <div className="col-12 col-md-6 col-lg-4 mb-3" key={project.id}>
                         <div className={`${lightMode ? 'bg-card-light' : 'bg-card-dark'} shadow card border-0 p-2`}>
                             <div className="card-body">
                                 <h4 className={`card-title ${lightMode ? 'text-dark' : 'text-white'}`}>{project.name}</h4>
