@@ -70,6 +70,10 @@ main .skill .logo i {
   font-size: 130px;
 }
 
+.card-project > .card {
+  height: 350px;
+}
+
 @keyframes climb {
   50% {
     transform: rotate(15deg);
@@ -83,5 +87,15 @@ main .skill .logo i {
 @media screen and (min-width: 1024px) {
   .mainHeader img {
     height: 350px;
+  }
+
+  .card-project > .card {
+    height: 410px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-project > .card {
+    height: 435px;
   }
 }
