@@ -9,9 +9,9 @@ const projects = [
         languages: [
             { id: 1, name: "devicon-html5-plain colored fs-5" },
             { id: 2, name: "devicon-css3-plain colored fs-5" },
-            { id: 3, name: "devicon-javascript-plain colored fs-5" },
-            { id: 4, name: "devicon-nodejs-plain-wordmark colored" },
-            { id: 5, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 4, name: "devicon-javascript-plain colored fs-5" },
+            { id: 5, name: "devicon-nodejs-plain-wordmark colored" },
             { id: 6, name: "devicon-postgresql-plain colored fs-5" },
         ],
         linkProject: "https://litshare.vercel.app/",
@@ -26,9 +26,9 @@ const projects = [
         } ,
         languages: [
             { id: 1, name: "devicon-react-original colored fs-5" },
-            { id: 2, name: "devicon-nodejs-plain-wordmark colored fs-5" },
+            { id: 2, name: "devicon-css3-plain colored fs-5" },
             { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
-            { id: 4, name: "devicon-css3-plain colored fs-5" },
+            { id: 4, name: "devicon-nodejs-plain-wordmark colored fs-5" }, 
             { id: 5, name: "devicon-postgresql-plain colored fs-5" },
         ],
         linkProject: "https://simulador-brasileirao.vercel.app/",
@@ -43,8 +43,8 @@ const projects = [
         },
         languages: [
             { id: 1, name: "devicon-react-original colored fs-5" },
-            { id: 2, name: "devicon-nodejs-plain-wordmark colored fs-5" },
-            { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 2, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 3, name: "devicon-nodejs-plain-wordmark colored fs-5" },
         ],
         linkProject: "https://newsnow-snowy.vercel.app/",
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7235239913430876162/"
