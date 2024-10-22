@@ -32,7 +32,7 @@ const projects = [
             { id: 5, name: "devicon-postgresql-plain colored fs-5" },
         ],
         linkProject: "https://simulador-brasileirao.vercel.app/",
-        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7241515139902918657/"
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7254572857303715840/"
     },
     {
         id: 3,
