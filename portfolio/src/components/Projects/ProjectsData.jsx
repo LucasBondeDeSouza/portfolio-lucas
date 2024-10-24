@@ -15,7 +15,7 @@ const projects = [
             { id: 6, name: "devicon-postgresql-plain colored fs-5" },
         ],
         linkProject: "https://litshare.vercel.app/",
-        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7241515139902918657/"
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7255240514860445696/"
     },
     {
         id: 2,
