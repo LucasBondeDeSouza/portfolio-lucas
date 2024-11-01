@@ -47,7 +47,7 @@ const projects = [
             { id: 3, name: "devicon-nodejs-plain-wordmark colored fs-5" },
         ],
         linkProject: "https://newsnow-snowy.vercel.app/",
-        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7235239913430876162/"
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7258178870208569347/"
     },
     {
         id: 4,
