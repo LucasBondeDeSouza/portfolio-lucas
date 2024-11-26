@@ -36,6 +36,19 @@ const projects = [
     },
     {
         id: 3,
+        name: "SmartSpeak",
+        description: {
+            pt: "O SmartSpeak é uma aplicação inovadora de chatbot com inteligência artificial, desenvolvida para oferecer interações rápidas, precisas e intuitivas. Utilizando IA avançada, a plataforma permite que os usuários façam perguntas e obtenham respostas contextuais e detalhadas, com suporte a múltiplos idiomas. Ideal para aprendizado, suporte ao cliente e diversas outras aplicações.",
+            en: "SmartSpeak is an innovative AI-powered chatbot application designed to provide fast, accurate, and intuitive interactions. Utilizing advanced AI, the platform allows users to ask questions and receive contextual and detailed answers, with support for multiple languages. Ideal for learning, customer support, and various other applications."
+        },
+        languages: [
+            { id: 1, name: "devicon-react-original colored fs-5" }
+        ],
+        linkProject: "https://smart-speak.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7267219205085687809/"
+    },
+    {
+        id: 4,
         name: "NewsNow",
         description: {
             pt: "Desenvolvi o newsNow, uma aplicação que permite aos usuários buscar notícias sobre qualquer tema de forma rápida e intuitiva. A plataforma utiliza a API gnews.io para fornecer resultados em tempo real, garantindo uma busca ágil e eficiente. A interface simples e direta foi projetada para facilitar a navegação, proporcionando uma experiência fluida ao acessar as notícias mais recentes da web.",
@@ -50,7 +63,7 @@ const projects = [
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7258178870208569347/"
     },
     {
-        id: 4,
+        id: 5,
         name: "Clone Twitter",
         description: {
             pt: "Finalizei um projeto no qual recriei a interface e as principais funcionalidades do Twitter. Utilizei React para desenvolver componentes dinâmicos e Tailwind CSS para criar um design moderno e responsivo. O projeto foca em oferecer uma experiência de uso fluida e interativa, com recursos como postagens, interações entre usuários e atualizações em tempo real.",
@@ -64,7 +77,7 @@ const projects = [
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7242564054475563008/"
     },
     {
-        id: 5,
+        id: 6,
         name: "World Clock",
         description: {
             pt: "Este projeto é uma aplicação web interativa que exibe o horário atual e o clima de diversas cidades ao redor do mundo. Utilizando a API do OpenWeatherMap para obter dados meteorológicos em tempo real, a interface permite que o usuário selecione entre várias cidades em diferentes fusos horários e visualize tanto o horário local quanto a condição climática atual.",
@@ -79,7 +92,7 @@ const projects = [
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7188974997695062018/?originTrackingId=vj5VDiceQo6oTXerhRcoGQ%3D%3D"
     },
     {
-        id: 6,
+        id: 7,
         name: "Dev Burguer",
         description: {
             pt: "Desenvolvi o Dev Burguer, uma aplicação web que explora um cardápio de hambúrgueres e bebidas. Com uma interface intuitiva, a plataforma apresenta descrições e imagens dos produtos. O carrinho de compras atualiza o total em tempo real, permitindo adicionar ou remover itens. A aplicação também verifica o horário de funcionamento e valida o endereço de entrega, garantindo eficiência.",
