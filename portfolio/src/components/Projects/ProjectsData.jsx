@@ -26,10 +26,12 @@ const projects = [
         } ,
         languages: [
             { id: 1, name: "devicon-react-original colored fs-5" },
-            { id: 2, name: "devicon-css3-plain colored fs-5" },
-            { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
-            { id: 4, name: "devicon-nodejs-plain-wordmark colored fs-5" }, 
-            { id: 5, name: "devicon-postgresql-plain colored fs-5" },
+            { id: 2, name: "devicon-html5-plain colored fs-5" },
+            { id: 3, name: "devicon-css3-plain colored fs-5" },
+            { id: 4, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 5, name: "devicon-javascript-plain colored fs-5" },
+            { id: 6, name: "devicon-nodejs-plain-wordmark colored fs-5" }, 
+            { id: 7, name: "devicon-postgresql-plain colored fs-5" },
         ],
         linkProject: "https://simulador-brasileirao.vercel.app/",
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7254572857303715840/"
@@ -42,7 +44,10 @@ const projects = [
             en: "SmartSpeak is an innovative AI-powered chatbot application designed to provide fast, accurate, and intuitive interactions. Utilizing advanced AI, the platform allows users to ask questions and receive contextual and detailed answers, with support for multiple languages. Ideal for learning, customer support, and various other applications."
         },
         languages: [
-            { id: 1, name: "devicon-react-original colored fs-5" }
+            { id: 1, name: "devicon-react-original colored fs-5" },
+            { id: 2, name: "devicon-html5-plain colored fs-5" },
+            { id: 3, name: "devicon-css3-plain colored fs-5" },
+            { id: 4, name: "devicon-javascript-plain colored fs-5" },
         ],
         linkProject: "https://smart-speak.vercel.app/",
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7267219205085687809/"
@@ -56,8 +61,10 @@ const projects = [
         },
         languages: [
             { id: 1, name: "devicon-react-original colored fs-5" },
-            { id: 2, name: "devicon-bootstrap-plain colored fs-5" },
-            { id: 3, name: "devicon-nodejs-plain-wordmark colored fs-5" },
+            { id: 2, name: "devicon-html5-plain colored fs-5" },
+            { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 4, name: "devicon-javascript-plain colored fs-5" },
+            { id: 5, name: "devicon-nodejs-plain-wordmark colored fs-5" },
         ],
         linkProject: "https://newsnow-snowy.vercel.app/",
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7258178870208569347/"
@@ -71,7 +78,9 @@ const projects = [
         },
         languages: [
             { id: 1, name: "devicon-react-original colored fs-5" },
-            { id: 2, name: "devicon-tailwindcss-original colored fs-5" },
+            { id: 2, name: "devicon-html5-plain colored fs-5" },
+            { id: 3, name: "devicon-tailwindcss-original colored fs-5" },
+            { id: 4, name: "devicon-javascript-plain colored fs-5" },
         ],
         linkProject: "https://clone-twitter-three-blond.vercel.app/",
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7242564054475563008/"
