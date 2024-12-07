@@ -54,6 +54,22 @@ const projects = [
     },
     {
         id: 4,
+        name: "Visit USA",
+        description: {
+            pt: "O Visit USA é uma aplicação que explora as belezas das cidades dos Estados Unidos. Com uma interface atraente e funcional, o site apresenta informações detalhadas e imagens das principais cidades americanas, destacando pontos turísticos, cultura local e dicas para visitantes.",
+            en: "Visit USA is an application that explores the beauties of cities in the United States. With an attractive and functional interface, the website features detailed information and images of the main American cities, highlighting tourist attractions, local culture, and tips for visitors."
+        },
+        languages: [
+            { id: 1, name: "devicon-react-original colored fs-5" },
+            { id: 2, name: "devicon-html5-plain colored fs-5" },
+            { id: 3, name: "devicon-css3-plain colored fs-5" },
+            { id: 4, name: "devicon-javascript-plain colored fs-5" }
+        ],
+        linkProject: "https://visit-usa-two.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7271236686133559296/"
+    },
+    {
+        id: 5,
         name: "NewsNow",
         description: {
             pt: "Desenvolvi o newsNow, uma aplicação que permite aos usuários buscar notícias sobre qualquer tema de forma rápida e intuitiva. A plataforma utiliza a API gnews.io para fornecer resultados em tempo real, garantindo uma busca ágil e eficiente. A interface simples e direta foi projetada para facilitar a navegação, proporcionando uma experiência fluida ao acessar as notícias mais recentes da web.",
@@ -70,7 +86,7 @@ const projects = [
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7258178870208569347/"
     },
     {
-        id: 5,
+        id: 6,
         name: "Clone Twitter",
         description: {
             pt: "Finalizei um projeto no qual recriei a interface e as principais funcionalidades do Twitter. Utilizei React para desenvolver componentes dinâmicos e Tailwind CSS para criar um design moderno e responsivo. O projeto foca em oferecer uma experiência de uso fluida e interativa, com recursos como postagens, interações entre usuários e atualizações em tempo real.",
@@ -86,7 +102,7 @@ const projects = [
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7242564054475563008/"
     },
     {
-        id: 6,
+        id: 7,
         name: "World Clock",
         description: {
             pt: "Este projeto é uma aplicação web interativa que exibe o horário atual e o clima de diversas cidades ao redor do mundo. Utilizando a API do OpenWeatherMap para obter dados meteorológicos em tempo real, a interface permite que o usuário selecione entre várias cidades em diferentes fusos horários e visualize tanto o horário local quanto a condição climática atual.",
@@ -101,7 +117,7 @@ const projects = [
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7188974997695062018/?originTrackingId=vj5VDiceQo6oTXerhRcoGQ%3D%3D"
     },
     {
-        id: 7,
+        id: 8,
         name: "Dev Burguer",
         description: {
             pt: "Desenvolvi o Dev Burguer, uma aplicação web que explora um cardápio de hambúrgueres e bebidas. Com uma interface intuitiva, a plataforma apresenta descrições e imagens dos produtos. O carrinho de compras atualiza o total em tempo real, permitindo adicionar ou remover itens. A aplicação também verifica o horário de funcionamento e valida o endereço de entrega, garantindo eficiência.",
