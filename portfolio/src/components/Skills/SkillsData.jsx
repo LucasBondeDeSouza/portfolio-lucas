@@ -16,41 +16,46 @@ const skills = [
     },
     {
         id: 4,
+        name: "TypeScript",
+        logo: "devicon-typescript-plain colored"
+    },
+    {
+        id: 5,
         name: "Bootstrap",
         logo: "devicon-bootstrap-plain colored"
     },
     {
-        id: 5,
+        id: 6,
         name: "Tailwind",
         logo: "devicon-tailwindcss-original colored"
     },
     {
-        id: 6,
+        id: 7,
         name: "Python",
         logo: "devicon-python-plain colored"
     },
     {
-        id: 7,
+        id: 8,
         name: "NodeJS",
         logo: "devicon-nodejs-plain-wordmark colored"
     },
     {
-        id: 8,
+        id: 9,
         name: "React",
         logo: "devicon-react-original colored"
     },
     {
-        id: 9,
+        id: 10,
         name: "Vue",
         logo: "devicon-vuejs-plain colored"
     },
     {
-        id: 10,
+        id: 11,
         name: "MySQL",
         logo: "devicon-mysql-plain-wordmark colored"
     },
     {
-        id: 11,
+        id: 12,
         name: "PostgreSQL",
         logo: "devicon-postgresql-plain-wordmark colored"
     },
