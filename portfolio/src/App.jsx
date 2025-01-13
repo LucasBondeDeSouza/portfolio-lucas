@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Header from "./components/Header";
+import ButtonDarkMode from "./components/ButtonDarkMode";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -15,40 +16,45 @@ export default () => {
   }, []);
 
   const [language, setLanguage] = useState('pt');
-  const [lightMode, setLightMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(false)
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  }
 
   return (
     <div>
       <Header 
         language={language} 
         setLanguage={setLanguage}
-        lightMode={lightMode}
-        setLightMode={setLightMode}
+        darkMode={darkMode}
       />
 
-      <main className={lightMode ? 'bg-main-light' : 'bg-main-dark'}>
+      <ButtonDarkMode toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
+
+      <main className={darkMode ? 'bg-main-light' : 'bg-main-dark'}>
         <div id="mainHeader"></div>
         <div data-aos="fade-up">
-          <MainHeader language={language} lightMode={lightMode} />
+          <MainHeader language={language} darkMode={darkMode} />
         </div>
 
         <div id="about"></div>
         <div data-aos="fade-up">
-          <About language={language} lightMode={lightMode} />
+          <About language={language} darkMode={darkMode} />
         </div>
 
         <div id="skills"></div>
         <div data-aos="fade-up">
-          <Skills language={language} lightMode={lightMode} />
+          <Skills language={language} darkMode={darkMode} />
         </div>
 
         <div id="projects"></div>
         <div data-aos="fade-up">
-          <Projects language={language} lightMode={lightMode} />
+          <Projects language={language} darkMode={darkMode} />
         </div>
       </main>
 
-      <Footer language={language} lightMode={lightMode} />
+      <Footer language={language} darkMode={darkMode} />
     </div>
   );
 };

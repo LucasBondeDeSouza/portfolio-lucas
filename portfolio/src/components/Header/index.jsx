@@ -1,19 +1,15 @@
 import React from "react";
 import { US, BR } from 'country-flag-icons/react/3x2';
 
-export default ({ language, setLanguage, lightMode, setLightMode }) => {
+export default ({ language, setLanguage, darkMode }) => {
 
     const handleLanguageChange = (e) => {
         setLanguage(e.target.value);
     };
 
-    const toggleLightMode = () => {
-        setLightMode(!lightMode);
-    }
-
     return (
         <>
-            <header className={`sticky-top ${lightMode ? 'bg-info' : 'bg-header-dark'} shadow-sm`}>
+            <header className={`sticky-top ${darkMode ? 'bg-info' : 'bg-header-dark'} shadow-sm`}>
                 <div className="container">
                     <nav className="navbar navbar-expand-md">
                         <div className="container-fluid">
@@ -61,12 +57,6 @@ export default ({ language, setLanguage, lightMode, setLightMode }) => {
                                             <option value="pt" className="text-dark">PT-BR</option>
                                             <option value="en" className="text-dark">EN-US</option>
                                         </select>
-                                    </li>
-
-                                    <li className="nav-item d-flex align-items-center">
-                                        <div className="form-check form-switch m-0">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={toggleLightMode} />
-                                        </div>
                                     </li>
                                 </ul>
                             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Typewriter } from 'react-simple-typewriter';
 import Avatar from "../../assets/avatar.png";
 
-export default ({ language, lightMode }) => {
+export default ({ language, darkMode }) => {
     return (
         <div className="container vh-100 d-flex justify-content-center align-items-center">
             <div className="row w-100 h-75">
@@ -11,7 +11,7 @@ export default ({ language, lightMode }) => {
                 </div>
 
                 <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                    <h1 className={`${lightMode ? 'text-dark' : 'text-white'} d-flex flex-column`}>
+                    <h1 className={`${darkMode ? 'text-dark' : 'text-white'} d-flex flex-column`}>
                         {language === 'pt' ? 'Eu sou Lucas Bonde' : "I'm Lucas Bonde"}{' '}
                         <span>
                             <Typewriter
