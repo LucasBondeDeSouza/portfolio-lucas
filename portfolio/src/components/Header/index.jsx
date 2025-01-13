@@ -13,7 +13,7 @@ export default ({ language, setLanguage, darkMode }) => {
                 <div className="container">
                     <nav className="navbar navbar-expand-md">
                         <div className="container-fluid">
-                            <a href="#mainHeader" class="text-decoration-none text-reset">
+                            <a href="#mainHeader" className="text-decoration-none text-reset">
                                 <h1 className='navbar-brand m-0 text-white'>PORTFÓLIO</h1>
                             </a>
 

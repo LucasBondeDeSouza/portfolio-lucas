@@ -21,7 +21,7 @@ export default ({ language, darkMode }) => {
                                 <div className="d-flex flex-column">
                                     <div className="d-flex align-items-center gap-2 my-2">
                                         {project.languages.map(language => (
-                                            <i className={language.name}></i>
+                                            <i className={language.name} key={language.id}></i>
                                         ))}
                                     </div>
 
