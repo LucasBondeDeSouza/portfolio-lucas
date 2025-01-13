@@ -46,11 +46,11 @@ export default ({ language, setLanguage, darkMode }) => {
                                         </a>
                                     </li>
 
-                                    <li className="nav-item d-flex align-items-center me-md-4">
+                                    <li className="nav-item d-flex align-items-center mt-sm-0 mt-2 ms-sm-2 ms-0">
                                         {language === 'pt' ? <BR title="Português" style={{ width: '24px', height: 'auto' }} /> :
                                             <US title="English" style={{ width: '24px', height: 'auto' }} />}
                                         <select
-                                            className='form-select-sm w-auto bg-transparent border-0 text-white ms-2'
+                                            className='form-select-sm w-auto bg-transparent border-0 text-white ms-1'
                                             value={language}
                                             onChange={handleLanguageChange}
                                         >
