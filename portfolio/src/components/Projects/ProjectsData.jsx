@@ -3,19 +3,20 @@ const projects = [
         id: 1,
         name: "LitShare",
         description: {
-            pt: "Trata-se de uma Rede Social que permite aos usuários compartilhar suas experiências literárias. A aplicação conta com funcionalidades completas de autenticação (login, registro e integração com o Google), onde os usuários podem adicionar, editar e deletar suas próprias resenhas de livros, além de seguir outros leitores, curtir as publicações e visualizar o que outras pessoas estão lendo.",
-            en: "This is a social network that allows users to share their literary experiences. The application has full authentication features (login, registration and integration with Google), where users can add, edit and delete their own book reviews, as well as follow other readers, like publications and see what other people are reading."
+            pt: "Trata-se de uma Rede Social que permite aos usuários compartilhar suas experiências literárias. A aplicação conta com funcionalidades completas de autenticação (login e registro), onde os usuários podem adicionar, editar e deletar suas próprias resenhas de livros, além de seguir outros leitores, curtir as publicações e visualizar o que outras pessoas estão lendo.",
+            en: "This is a social network that allows users to share their literary experiences. The application has full authentication features (login and registration), where users can add, edit and delete their own book reviews, as well as follow other readers, like publications and see what other people are reading."
         } ,
         languages: [
-            { id: 1, name: "devicon-html5-plain colored fs-5" },
-            { id: 2, name: "devicon-css3-plain colored fs-5" },
-            { id: 3, name: "devicon-bootstrap-plain colored fs-5" },
-            { id: 4, name: "devicon-javascript-plain colored fs-5" },
-            { id: 5, name: "devicon-nodejs-plain-wordmark colored" },
-            { id: 6, name: "devicon-postgresql-plain colored fs-5" },
+            { id: 1, name: "devicon-react-original colored fs-5" },
+            { id: 2, name: "devicon-html5-plain colored fs-5" },
+            { id: 3, name: "devicon-css3-plain colored fs-5" },
+            { id: 4, name: "devicon-bootstrap-plain colored fs-5" },
+            { id: 5, name: "devicon-javascript-plain colored fs-5" },
+            { id: 6, name: "devicon-nodejs-plain-wordmark colored" },
+            { id: 7, name: "devicon-postgresql-plain colored fs-5" },
         ],
-        linkProject: "https://litshare.vercel.app/",
-        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7255240514860445696/"
+        linkProject: "https://litshare-app.vercel.app/",
+        linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7306435326233763840/"
     },
     {
         id: 2,
