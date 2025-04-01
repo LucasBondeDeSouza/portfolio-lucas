@@ -26,7 +26,7 @@ const skills = [
     },
     {
         id: 6,
-        name: "Tailwind",
+        name: "TailwindCSS",
         logo: "devicon-tailwindcss-original colored"
     },
     {
