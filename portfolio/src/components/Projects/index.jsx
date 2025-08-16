@@ -9,8 +9,8 @@ export default ({ language, darkMode }) => {
             <h1 className={`${darkMode ? 'dark' : 'text-white'} mb-5`}>{language === 'pt' ? 'Projetos' : 'Projects'}</h1>
 
             <div className="row">
-                {projects.map(project => (
-                    <div className="col-12 col-md-6 col-lg-4 mb-3 card-project" key={project.id}>
+                {projects.map((project, index) => (
+                    <div className="col-12 col-md-6 col-lg-4 mb-3 card-project" key={index}>
                         <div className={`${darkMode ? 'bg-card-light' : 'bg-card-dark'} shadow card border-0 p-2`}>
                             <div className="card-body d-flex flex-column justify-content-between">
                                 <div className="d-flex flex-column">
@@ -20,8 +20,8 @@ export default ({ language, darkMode }) => {
 
                                 <div className="d-flex flex-column">
                                     <div className="d-flex align-items-center gap-2 my-2">
-                                        {project.languages.map(language => (
-                                            <i className={language.name} key={language.id}></i>
+                                        {project.languages.map((language, index) => (
+                                            <i className={language.name} key={index}></i>
                                         ))}
                                     </div>
 

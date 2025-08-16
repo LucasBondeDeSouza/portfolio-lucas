@@ -5,8 +5,8 @@ import { faArrowUpRightFromSquare, faDownload, faEnvelope, faPhone } from "@fort
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import ImgAbout from "../../assets/img-about.png"
-import Curriculo from "../../assets/lucas-bonde-cv.pdf"
-import Resume from "../../assets/lucas-bonde-cv-en.pdf"
+import Curriculo from "../../assets/lucas-bonde-de-souza-cv.pdf"
+import Resume from "../../assets/lucas-bonde-de-souza-cv-en.pdf"
 
 export default ({ language, darkMode }) => {
     return (
