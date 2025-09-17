@@ -11,6 +11,8 @@ const projects = [
             { name: "devicon-css3-plain colored fs-5" },
             { name: "devicon-tailwindcss-plain colored fs-5" },
             { name: "devicon-javascript-plain colored fs-5" },
+            { name: "devicon-nodejs-plain colored fs-5" },
+            { name: "devicon-mongodb-plain colored fs-5" },
         ],
         linkProject: "https://find-movies-zeta.vercel.app/",
         linkInAction: "https://www.linkedin.com/feed/update/urn:li:activity:7362176601356230656/"
